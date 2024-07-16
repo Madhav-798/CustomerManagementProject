@@ -25,7 +25,6 @@ namespace CustomerManagementMVC.Controllers
             }
             catch (HttpRequestException ex)
             {
-                // Log the exception (not shown here)
                 return View("Error", new ErrorViewModel { Message = "Error retrieving customers" });
             }
         }
